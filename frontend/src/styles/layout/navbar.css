@@ -1,0 +1,51 @@
+img {
+  width: var(--font-size-xxxl);
+}
+
+a {
+  text-decoration: none;
+  color: var(--50);
+}
+
+.navbar {
+  display: flex;
+  background: var(--900);
+  color: var(--50);
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+}
+
+.navbar .brand {
+  display: flex;
+  align-items: center;
+  font-size: var(--font-size-m);
+}
+
+.navbar .links {
+  font-size: var(--font-size-r);
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.navbar .actions {
+  display: flex;
+  gap: 12px;
+  font-size: var(--font-size-r);
+  align-items: center;
+}
+
+.navbar .actions .auth {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+i {
+  font-size: var(--font-size-m);
+}
+
+span {
+  font-size: var(--font-size-m);
+}

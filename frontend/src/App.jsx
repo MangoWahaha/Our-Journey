@@ -1,15 +1,12 @@
-import { useState } from 'react'
-import Auth from './pages/auth/auth'
-import './App.css'
+import NavBar from "./components/layout/navbar";
+import Footer from "./components/layout/footer";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      
+      <NavBar />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
